@@ -134,7 +134,7 @@
 }
 
 .title-big {
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);  /*  оставила здесь, убрала ниже */
+  font-size: var(--title-size);  /*  вроде бы теперь правильнее */
   font-weight: 700;
   color: var(--title-color, #db00ff);
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
